@@ -16,13 +16,13 @@
 		55030BE01B165D8F005EFC19 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 55030BD91B165D8F005EFC19 /* MMWormholeFileTransiting.m */; };
 		55030BE11B165D8F005EFC19 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 55030BD91B165D8F005EFC19 /* MMWormholeFileTransiting.m */; };
 		55AB6EF31BA77D8F003908DC /* MMWormholeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AB6EEA1BA77D8F003908DC /* MMWormholeSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55AB6EF51BA77D8F003908DC /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB6EEB1BA77D8F003908DC /* MMWormholeSession.m */; settings = {ASSET_TAGS = (); }; };
+		55AB6EF51BA77D8F003908DC /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB6EEB1BA77D8F003908DC /* MMWormholeSession.m */; };
 		55AB6EF71BA77D8F003908DC /* MMWormholeSessionContextTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AB6EEC1BA77D8F003908DC /* MMWormholeSessionContextTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55AB6EF91BA77D8F003908DC /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB6EED1BA77D8F003908DC /* MMWormholeSessionContextTransiting.m */; settings = {ASSET_TAGS = (); }; };
+		55AB6EF91BA77D8F003908DC /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB6EED1BA77D8F003908DC /* MMWormholeSessionContextTransiting.m */; };
 		55AB6EFB1BA77D8F003908DC /* MMWormholeSessionFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AB6EEE1BA77D8F003908DC /* MMWormholeSessionFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55AB6EFD1BA77D8F003908DC /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB6EEF1BA77D8F003908DC /* MMWormholeSessionFileTransiting.m */; settings = {ASSET_TAGS = (); }; };
+		55AB6EFD1BA77D8F003908DC /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB6EEF1BA77D8F003908DC /* MMWormholeSessionFileTransiting.m */; };
 		55AB6EFF1BA77D8F003908DC /* MMWormholeSessionMessageTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AB6EF01BA77D8F003908DC /* MMWormholeSessionMessageTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55AB6F011BA77D8F003908DC /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB6EF11BA77D8F003908DC /* MMWormholeSessionMessageTransiting.m */; settings = {ASSET_TAGS = (); }; };
+		55AB6F011BA77D8F003908DC /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AB6EF11BA77D8F003908DC /* MMWormholeSessionMessageTransiting.m */; };
 		55AB6F031BA77D8F003908DC /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AB6EF21BA77D8F003908DC /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55AB6F041BA77D8F003908DC /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AB6EF21BA77D8F003908DC /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B44A51B1B00572E00C9969A /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B44A47F1B0055F500C9969A /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -322,7 +322,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -364,7 +365,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
